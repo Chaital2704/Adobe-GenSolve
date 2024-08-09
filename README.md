@@ -12,12 +12,12 @@ Firsty we look into the regular curves i.e. lines, Square, Rectangle, Triangle, 
   
 Our approach leverages the power of Shape Context to match and regularize curves. By creating bounding boxes around contours and aligning them using PCA (Principal Component Analysis), we achieve precise shape formation. Whether it's a square, ellipse, or any polygon, we've got it covered!
 
-<img src="images/Screenshot%202024-08-09%20at%2011.05.19%20PM.png" alt="Project Screenshot" width="40" height="30"/>
-
-![Project Screenshot](images/Screenshot%202024-08-09%20at%2011.05.19%20PM.png)  ![Project Screenshot](images/Ex2.png)
+<img src="images/Screenshot%202024-08-09%20at%2011.05.19%20PM.png" alt="Project Screenshot" width="200" height="300"/><img src="images/Ex2.png" alt="Project Screenshot" width="200" height="300"/>
 
 As you can see in "occlusion1.csv" the ellipse and circle are regularised, and occlusion is also perfectly handled.
-![Project Screenshot](images/Ex2.1.png)  ![Project Screenshot](images/Ex2.2.png)
+<img src="images/Ex2.1.png" alt="Project Screenshot" width="200" height="300"/><img src="images/Ex2.2.png" alt="Project Screenshot" width="200" height="300"/>
+
+
 
 
 
