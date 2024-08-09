@@ -11,8 +11,7 @@ Firsty we look into the regular curves i.e. lines, Square, Rectangle, Triangle, 
   Beautify: Replace imperfect curves with their perfectly aligned counterparts.
   
 Our approach leverages the power of Shape Context to match and regularize curves. By creating bounding boxes around contours and aligning them using PCA (Principal Component Analysis), we achieve precise shape formation. Whether it's a square, ellipse, or any polygon, we've got it covered!
-<img src="https://raw.githubusercontent.com/Chaital2704/Adobe-GenSolve/main/images/Ex1/image.png" alt="Example Image" width="200">
-
+![Project Screenshot](images/Ex1.png)
 
 
 💻 How It Works: Shape Identification, Regularization, and Code Highlights:
