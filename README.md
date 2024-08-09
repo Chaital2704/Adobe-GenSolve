@@ -14,7 +14,7 @@ Our approach leverages the power of Shape Context to match and regularize curves
 
 ![Project Screenshot](images/Screenshot%202024-08-09%20at%2011.05.19%20PM.png)  ![Project Screenshot](images/Ex2.png)
 As you can see in "occlusion1.csv" the ellipse and circle are regularised, and occlusion is also perfectly handled.
-![Project Screenshot](images/Ex2.1.png) ![Project Screenshot](Ex2.2.png)
+![Project Screenshot](images/Ex2.1.png)  ![Project Screenshot](images/Ex2.2.png)
 
 
 
