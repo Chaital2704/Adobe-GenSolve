@@ -1,23 +1,29 @@
 Curvetopia 🌈
+
 Welcome to Curvetopia, a project born out of the Adobe Gensolve Hackathon, where curves aren't just shapes—they're art! This repository showcases my approach to identifying, regularizing, and beautifying a wide array of 2D curves. Whether you're a geometry enthusiast, a coding wizard, or someone who appreciates the elegance of symmetry, Curvetopia offers something special for you.
 
 🎯 Objective:
+
 Our mission is simple yet ambitious: to bring order and beauty to the chaotic world of 2D Euclidean space. We're starting with closed curves and working our way up to more complex shapes. Along the way, we'll explore the mesmerizing world of symmetry and master the art of curve completion. In short, we're on a journey to make every curve a masterpiece.
 
 Firsty we look into the regular curves i.e. lines, Square, Rectangle, Triangle, Ellipse, Pentagon, Hexagon, Heptagon, Octagon.
 
-  Identify: Pinpoint those curves which closely resemble to the above mentioned regular shapes.
-  Regularize: Transform irregular shapes into their ideal, symmetrical forms.
-  Beautify: Replace imperfect curves with their perfectly aligned counterparts.
+- **Identify**: Pinpoint those curves which closely resemble to the above mentioned regular shapes.
+- **Regularize**: Transform irregular shapes into their ideal, symmetrical forms.
+- **Beautify**: Replace imperfect curves with their perfectly aligned counterparts.
   
 Our approach leverages the power of Shape Context to match and regularize curves. By creating bounding boxes around contours and aligning them using PCA (Principal Component Analysis), we achieve precise shape formation. Whether it's a square, ellipse, or any polygon, we've got it covered!
 
 <img src="images/Screenshot%202024-08-09%20at%2011.05.19%20PM.png" alt="Project Screenshot" width="250" height="300"/><img src="images/Ex2.png" alt="Project Screenshot" width="250" height="300"/>
 
 As you can see in "occlusion1.csv" the ellipse and circle are regularised, and occlusion is also perfectly handled.
+
 <img src="images/Ex2.1.png" alt="Project Screenshot" width="250" height="300"/><img src="images/Ex2.2.png" alt="Project Screenshot" width="250" height="300"/>
 
 As you can see in "isolated.csv" the square, circle and star are regularised perfectly.
+
+<img src="images/Ex3.1.png" alt="Project Screenshot" width="250" height="300"/><img src="images/Ex3.2.png" alt="Project Screenshot" width="250" height="300"/>
+
 
 
 
