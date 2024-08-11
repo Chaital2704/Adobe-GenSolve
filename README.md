@@ -47,3 +47,6 @@ First, the code reads the fragmented contours from a CSV file and calculates the
 
 The code is able to merge the contours for frag0.csv, and then identify and beautify the shapes.
 
+Collaborators:
+Niyath Nair, Chaital Ghan
+
