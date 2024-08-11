@@ -33,16 +33,12 @@ As you can see in "isolated.csv" the square, circle and star are regularised per
 💻 How It Works: Shape Identification, Regularization, and Code Highlights:
 We begin by identifying shapes through their contours and comparing them with a set of reference shapes. This process involves matching and classifying each shape. If a match is found with a score below 10, the curve is replaced with a perfected version. For rectangles and ellipses, we align the bounding box along the PCA axis to achieve flawless symmetry.
 
+Now we find the number of lines of symmetry present in irregular shapes ( assuming that if present they will be along the PCA axis)
 
+We find the PCA major and minor axis for the irregular shapes
+Now we flip the points of one side of the shape, and then perform hungarian matching with the points of the other side.
+If the matching score comes out to be less than the threshold then we classify the line as the line of symmetry.
+Finally the total number of lines of symmtery are printed.
 
-
-
-Behind the Scenes
-Here's a glimpse of the magic happening:
-
-Uniform Sampling: Ensures every shape is represented uniformly for consistent processing.
-Hungarian Matching: Matches the curve's contour with reference shapes to find the best fit.
-PCA Alignment: Aligns shapes along their major axis for perfect orientation.
-Symmetry Analysis: Enhances the beauty by ensuring symmetry in shapes, making every curve pleasing to the eye.
 
 
